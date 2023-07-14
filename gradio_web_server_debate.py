@@ -12,7 +12,7 @@ import requests
 import argparse
 import logging
 import os
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'YOUR API KEY'
 from chatarena.agent import Player
 from chatarena.backends import OpenAIChat,ChatGLM,Belle,Lizhi,Moss,OpenAIChatSb
 from chatarena.environments.conversation import Conversation
